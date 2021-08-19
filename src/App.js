@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import RefsDemo from "./Components.js/refs/RefsDemo";
+
+//import ParentComponent from "./Components.js/memo/ParentComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <RefsDemo />
     </div>
   );
 }
