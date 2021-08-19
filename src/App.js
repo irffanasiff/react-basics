@@ -12,13 +12,17 @@
 // import ClickCounter2 from "./Components.js/renderProps/ClickCounter2";
 // import HoveredCounter2 from "./Components.js/renderProps/HoverCounter2";
 // import User from "./Components.js/renderProps/User";
-import Counter from "./Components.js/renderProps/Counter";
-import HoverCounter2 from "./Components.js/renderProps/HoverCounter2";
-import ClickCounter2 from "./Components.js/renderProps/ClickCounter2";
+// import Counter from "./Components.js/renderProps/Counter";
+// import HoverCounter2 from "./Components.js/renderProps/HoverCounter2";
+
+import ComponentA from "./Components.js/context/ComponentA";
+import { UserProvider } from "./Components.js/context/userContext";
+// import ClickCounter2 from "./Components.js/renderProps/ClickCounter2";
+
 function App() {
   return (
     <div>
-      <Counter>
+      {/* <Counter>
         {(count, incrementCount) => (
           <ClickCounter2 count={count} incrementCount={incrementCount} />
         )}
@@ -28,7 +32,10 @@ function App() {
         {(count, incrementCount) => (
           <HoverCounter2 count={count} incrementCount={incrementCount} />
         )}
-      </Counter>
+      </Counter> */}
+      {/* <UserProvider value="Irfan"> */}
+        <ComponentA />
+       {/* </UserProvider> */}
     </div>
   );
 }
