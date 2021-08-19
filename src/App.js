@@ -11,7 +11,7 @@ import HowerCounter from "./Components.js/HOC/HowerCounter";
 function App() {
   return (
     <div>
-      <ClickCounter />
+      <ClickCounter name= "irfan"/>
       <HowerCounter />
     </div>
   );

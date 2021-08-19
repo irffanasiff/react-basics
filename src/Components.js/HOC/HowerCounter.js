@@ -11,4 +11,4 @@ export class HowerCounter extends Component {
   }
 }
 
-export default withComponent(HowerCounter);
+export default withComponent(HowerCounter, 3);
