@@ -1,3 +1,4 @@
+import PortalDemo from "./Components.js/portals/PortalDemo";
 import FocusInput from "./Components.js/refs/FocusInput";
 import FRParentInput from "./Components.js/refs/FRParentInput";
 
@@ -9,7 +10,7 @@ function App() {
   return (
     <div>
       {/* <RefsDemo /> */}
-      <FRParentInput />
+      <PortalDemo />
     </div>
   );
 }
